@@ -1,0 +1,2 @@
+CREATE DATABASE Emirates_Ops_Analytics;
+USE Emirates_Ops_Analytics;

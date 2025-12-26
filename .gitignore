@@ -1,0 +1,9 @@
+# Security & Environment
+.env
+*.pkl
+__pycache__/
+*.py[cod]
+*$py.class
+data/*.csv
+*.csv
+

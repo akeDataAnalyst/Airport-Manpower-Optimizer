@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -85,10 +79,6 @@ if staff_gap < 0:
     st.write(f"Recommendation: Reallocate {abs(staff_gap)} agents from the 'Above the Wing' team to reduce the {round(prediction)} min delay.")
 else:
     st.write(f"Resource utilization is high. Consider if these extra {staff_gap} agents are needed elsewhere in the terminal.")
-
-
-# In[ ]:
-
 
 
 
